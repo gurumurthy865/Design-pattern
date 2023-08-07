@@ -1,0 +1,8 @@
+1.Prototype is preferred when cost of creation of object is large and
+  it is easy to copy an existing instance by cloning rather than creating a new instance()
+2.Can clone without coupling to the concrete class, getting rid of repeated initialization
+2.DISADVANTAGE is that cloning complex object that have circular dependencies
+
+
+The standard clone method (java.lang.Object.clone()) creates a shallow copy of the object without calling a constructor.
+https://stackoverflow.com/questions/28725693/how-clone-has-more-performance-than-object-creation

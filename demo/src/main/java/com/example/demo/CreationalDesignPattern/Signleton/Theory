@@ -1,0 +1,15 @@
+1.Singleton pattern ensures the class has ony one instance and provide global access to it.
+2.Logging,driver objects,thread pool,caching uses singleton
+  java.lang.Runtime class is singleton
+3.DISADVANTAGE is that it is not easy to test due to tightly coupled objects
+
+4.Lazy evaluation method is not threadsafe and hence it is not recommended
+5.Synchronized approach is threadsafe,but not preferred when performance is critical
+6.Double checked locking approach is threadsafe and has better performance than synchronized
+7.Eager evaluation is thread safe, does not use lot of resource, but instance is created even when client does not use it
+8.Bill plough is the best practice which is threadsafe,high performance,ensures instance created only when client needed
+  This method is regarded as the standard implementation of singleton pattern.
+
+
+ How do you break singleton sanity?
+ Reflection,cloning

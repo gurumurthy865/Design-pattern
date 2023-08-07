@@ -1,0 +1,3 @@
+1.To use already existing object to perform operation and create new when no matching object is found
+2.Minimize memory usage by sharing much data with similar objects
+3.https://www.scaler.com/topics/design-patterns/flyweight-design-pattern/

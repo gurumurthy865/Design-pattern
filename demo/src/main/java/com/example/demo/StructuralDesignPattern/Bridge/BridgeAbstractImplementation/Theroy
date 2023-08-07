@@ -1,0 +1,7 @@
+1.Bridge pattern has two parts:  Abstraction and implementation
+2.Decouples abstraction from implementation so that two can vary independently
+3.Lets say you have a class shape that has subclass triangle and rectangle.
+  If you need different colors of shape, then we need to introduce two separate subclasses for each shape subclass
+  ie. red triangle, blue triangle, red rectangle, blue rectangle subclasses
+  This problem here is common issue of inheritance, ie. we extend shape class in two independent dimensions.
+  Bridge pattern resolves this issue, by switching from inheritance to composition

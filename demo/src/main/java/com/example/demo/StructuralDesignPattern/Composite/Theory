@@ -1,0 +1,11 @@
+1.Composite design pattern group of objects is treated as same
+2.Composite is a structural design pattern that lets you compose objects into tree structures and
+ then work with these structures as if they were individual objects.
+ Composes objects into a tree structure with composite and leaf
+  Lets say you have a main box and this main box may contain product and more smaller box/boxed
+  These smaller box/boxes are considered as composite that may contain more boxes and products
+  The products are considered as leaf which represent primitive object in composition
+3.Composite pattern suggests that you work with these products and boxes through common interface to find the
+  cumulative result.
+  ex: Lets say bank has many saving accounts and current accounts and you need to find the total balances of all
+      the account

@@ -1,0 +1,4 @@
+1.Decorator design pattern dynamically adds functionality and behaviour to an object without affecting
+  the existing object behaviour in that class
+2.Adapter changes the interface of an existing object,
+  while Decorator enhances an object without changing its interface.

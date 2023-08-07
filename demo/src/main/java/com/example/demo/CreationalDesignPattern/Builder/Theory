@@ -1,0 +1,8 @@
+1.Builder pattern helps in creation of "Immutable objects" with large set of attributes.
+2.Lets say User class has five attributes firstName,lastName,age,phone and address
+  If all fields are mandatory then one constructor is enough
+  What if age is optional,then either you have another constructor or set age as null
+  If we introduce a sixth variable, then no of constructor keep growing which call "Telescoping constructor problem"
+  Now wither we create more constructors or lose immutability by introducing setter method.Either way we lose something
+  Here BUILDER pattern help us to consume additional attributes of the object retaining immutability.
+3.The only DISADVANTAGE is more no of lines in the program

@@ -1,0 +1,4 @@
+1.Command is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request
+2.This transformation lets you pass requests as a method arguments, delay or queue a request’s execution, and support undoable operations.
+3.Talks about when and how request is fulfilled
+4.Helps in implementing loose coupling in request and response model

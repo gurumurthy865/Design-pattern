@@ -1,0 +1,11 @@
+1.Abstract Factory is another layer of abstraction which works as a super factory,
+that creates other factories.
+2.With abstract factory method we create family of different kind of objects.
+One generalised factory,Here FactoryProducer creates different types of objects
+3.This is generally used in dependency injection
+
+
+Relation with other Design patterns:
+1.Abstract Factory classes are often based on a set of Factory Methods,
+but you can also use Prototype to compose the methods on these classes.
+

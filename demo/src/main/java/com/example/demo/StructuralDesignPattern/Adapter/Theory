@@ -1,0 +1,7 @@
+1.Adapter design pattern converts an interface of a class into the interface that clients expects
+  ie. Adapter works as an bridge between two incompatible interfaces
+2.Binds client to interface and not implementation
+3.This pattern is preferred when you need to use an existing class but it's interface does not match the one you need
+
+
+https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
